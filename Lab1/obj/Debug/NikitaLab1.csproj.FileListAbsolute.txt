@@ -1,0 +1,7 @@
+D:\Code\NikitaLab1\NikitaLab1\bin\Debug\NikitaLab1.exe.config
+D:\Code\NikitaLab1\NikitaLab1\bin\Debug\NikitaLab1.exe
+D:\Code\NikitaLab1\NikitaLab1\bin\Debug\NikitaLab1.pdb
+D:\Code\NikitaLab1\NikitaLab1\obj\Debug\NikitaLab1.csprojAssemblyReference.cache
+D:\Code\NikitaLab1\NikitaLab1\obj\Debug\NikitaLab1.csproj.CoreCompileInputs.cache
+D:\Code\NikitaLab1\NikitaLab1\obj\Debug\NikitaLab1.exe
+D:\Code\NikitaLab1\NikitaLab1\obj\Debug\NikitaLab1.pdb

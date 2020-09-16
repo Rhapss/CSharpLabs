@@ -1,0 +1,7 @@
+F:\CODE\CSharpLabs\NikitaLab3\bin\Debug\NikitaLab3.exe.config
+F:\CODE\CSharpLabs\NikitaLab3\bin\Debug\NikitaLab3.exe
+F:\CODE\CSharpLabs\NikitaLab3\bin\Debug\NikitaLab3.pdb
+F:\CODE\CSharpLabs\NikitaLab3\obj\Debug\Lab3.csprojAssemblyReference.cache
+F:\CODE\CSharpLabs\NikitaLab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+F:\CODE\CSharpLabs\NikitaLab3\obj\Debug\NikitaLab3.exe
+F:\CODE\CSharpLabs\NikitaLab3\obj\Debug\NikitaLab3.pdb
