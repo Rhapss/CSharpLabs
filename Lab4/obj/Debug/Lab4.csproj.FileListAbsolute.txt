@@ -1,0 +1,7 @@
+F:\CODE\CSharpLabs\Lab4\bin\Debug\Lab4.exe.config
+F:\CODE\CSharpLabs\Lab4\bin\Debug\Lab4.exe
+F:\CODE\CSharpLabs\Lab4\bin\Debug\Lab4.pdb
+F:\CODE\CSharpLabs\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+F:\CODE\CSharpLabs\Lab4\obj\Debug\Lab4.exe
+F:\CODE\CSharpLabs\Lab4\obj\Debug\Lab4.pdb
+F:\CODE\CSharpLabs\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
