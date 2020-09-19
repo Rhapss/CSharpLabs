@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B1C80E27-704F-4288-BBC9-5E5FF705DD17}</ProjectGuid>
+    <ProjectGuid>{5584BA8B-793A-4C65-AA13-B22421454C12}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NikitaLab2</RootNamespace>
-    <AssemblyName>NikitaLab2</AssemblyName>
+    <RootNamespace>Lab2</RootNamespace>
+    <AssemblyName>Lab2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
