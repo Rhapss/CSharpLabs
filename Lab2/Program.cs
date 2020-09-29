@@ -11,12 +11,12 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            int start = 0;
+            int input = 0;
 
             try
             {
                 Console.Write("Введите стартовое значение для суммы ряда: ");
-                start = Int32.Parse(Console.ReadLine());
+                input = Int32.Parse(Console.ReadLine());
             }
             catch (Exception e)
             {
@@ -24,7 +24,8 @@ namespace Lab2
                 Console.ReadKey();
             }
 
-            int finish = start * start;
+            int start = input * input;
+            int finish = input * start;
             double result = 0;
 
             if (0 <= start || start <= finish)
@@ -33,14 +34,14 @@ namespace Lab2
                 {
                     result += (Math.Pow(-1, k) * Math.Pow(k, 2) - 1) / (Math.Pow(k, 2) + 3);
                 }
+                Console.WriteLine($"Результат исчесления суммы ряда с стартовым числом {start} = {result}");
+                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine("Wrong input");
+                Console.ReadKey();
             }
-
-            Console.WriteLine($"Результат исчесления суммы ряда с стартовым числом {start} = {result}");
-            Console.ReadKey();
         }
     }
 }
