@@ -18,7 +18,7 @@ namespace Lab1
             r2 = Convert.ToInt32(Console.ReadLine());
             Console.Write("R3:");
             r3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Сопротивление трёх последовательно соединённых резисторов будет составлять: {r1+r2+r3}Ом");
+            Console.WriteLine($"Сопротивление трёх последовательно соединённых резисторов будет составлять: {r1+r2+r3} Ом");
         }
     }
 }
