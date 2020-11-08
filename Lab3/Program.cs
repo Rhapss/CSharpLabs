@@ -15,14 +15,14 @@ namespace Lab3
 
         static void Main(string[] args)
         {
-            Random _rand = new Random();
+            Random rand = new Random();
             while (true)
             {
-                int startX = _rand.Next(1, 8);
-                int startY = _rand.Next(1, 8);
+                int startX = rand.Next(1, 8);
+                int startY = rand.Next(1, 8);
 
-                int finishX = _rand.Next(1, 8);
-                int finishY = _rand.Next(1, 8);
+                int finishX = rand.Next(1, 8);
+                int finishY = rand.Next(1, 8);
 
                 Console.WriteLine($"Start position of bishop is X:{startX}, Y:{startY}");
                 Console.WriteLine($"Can bishop move to X:{finishX}, Y:{finishY}?");
