@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Data.SqlTypes;
+
 
 namespace Lab6
 {
@@ -92,14 +92,13 @@ namespace Lab6
                     continue;
                 }
             }
-            
-            
+
             string str = "ABCD";
             string magicStr = "ABCD.EFGH";
             double doNum = 123.456;
-
             int[] numsArr = new int[10] { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
             int[] reversedNumsArr;
+
             //Before reverse
             Console.WriteLine("All data before reverse: ");
             Console.WriteLine(nums);
@@ -107,6 +106,7 @@ namespace Lab6
             Console.WriteLine(magicStr);
             Console.WriteLine(doNum);
             PrintArray(numsArr);
+
             //After reverse
             Console.WriteLine();
             Console.WriteLine("All data after reverse: ");
@@ -118,9 +118,11 @@ namespace Lab6
             Console.WriteLine("Reversing array via \"ref\"...");
             ReverseArray(ref numsArr);
             PrintArray(numsArr);
+
             Console.WriteLine("Reversing the same array again \"via\" ref and with \"out\"");
             ReverseArray(ref numsArr, out reversedNumsArr);
             PrintArray(reversedNumsArr);
+
             Console.ReadKey();
         }
     }
