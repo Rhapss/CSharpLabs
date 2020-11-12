@@ -1,0 +1,6 @@
+F:\CODE\CSharpLabs\Lab8.2\bin\Debug\Lab8._2.exe
+F:\CODE\CSharpLabs\Lab8.2\bin\Debug\Lab8._2.pdb
+F:\CODE\CSharpLabs\Lab8.2\obj\Debug\Lab8.2.csprojAssemblyReference.cache
+F:\CODE\CSharpLabs\Lab8.2\obj\Debug\Lab8.2.csproj.CoreCompileInputs.cache
+F:\CODE\CSharpLabs\Lab8.2\obj\Debug\Lab8._2.exe
+F:\CODE\CSharpLabs\Lab8.2\obj\Debug\Lab8._2.pdb

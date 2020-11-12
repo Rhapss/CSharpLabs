@@ -4,8 +4,6 @@ using System.Linq;
 
 namespace Lab7
 {
-    
-
     class Program
     {
         static void GenerateList(ref List<int> nums)
@@ -22,6 +20,7 @@ namespace Lab7
             num.Sort();
 
             var result = new Dictionary<int, int>();
+
             for (int i = 1; i < num.Count; i++)
             {
                 if (num[i] == num[i - 1])
