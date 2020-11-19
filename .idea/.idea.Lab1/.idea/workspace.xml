@@ -10,6 +10,7 @@
     <projectFile>Lab7/Lab7.csproj</projectFile>
     <projectFile>Lab8/Lab8.csproj</projectFile>
     <projectFile>Lab8.2/Lab8.2.csproj</projectFile>
+    <projectFile>Exam1/Exam1.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -30,21 +31,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Fix">
-      <change afterPath="$PROJECT_DIR$/Lab8.1/Lab8.1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab8.1/bin/Debug/Lab8.1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab8.1/bin/Debug/Lab8.1.pdb" afterDir="false" />
+    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 8.1 and 8.2 Done!">
+      <change afterPath="$PROJECT_DIR$/Exam1/Exam1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/bin/Debug/Exam1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/bin/Debug/Exam1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Lab1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Lab1/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/bin/Debug/Lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/bin/Debug/Lab1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/bin/Debug/Lab1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/bin/Debug/Lab1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8.2/bin/Debug/Lab8._2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8.2/bin/Debug/Lab8._2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8.2/bin/Debug/Lab8._2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8.2/bin/Debug/Lab8._2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8.2/obj/Debug/Lab8.2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8.2/obj/Debug/Lab8.2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8.2/obj/Debug/Lab8._2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8.2/obj/Debug/Lab8._2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8.2/obj/Debug/Lab8._2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8.2/obj/Debug/Lab8._2.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +61,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lab8.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/Garage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,6 +84,8 @@
         <option value="$PROJECT_DIR$/Lab8.2/ColorfulPhone.cs" />
         <option value="$PROJECT_DIR$/Lab8.2/SmartPhone.cs" />
         <option value="$PROJECT_DIR$/Lab8.2/Program.cs" />
+        <option value="$PROJECT_DIR$/Exam1/Cars.cs" />
+        <option value="$PROJECT_DIR$/Exam1/Program.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +108,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Lab8.2">
+  <component name="RunManager" selected=".NET Project.Exam1">
+    <configuration name="Exam1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exam1/Exam1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Lab1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -274,7 +301,7 @@
       <workItem from="1602016674177" duration="3824000" />
       <workItem from="1604413514784" duration="2750000" />
       <workItem from="1604956908338" duration="5054000" />
-      <workItem from="1605175368398" duration="16813000" />
+      <workItem from="1605175368398" duration="31407000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <created>1602026210619</created>
@@ -283,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602026210619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab 8.1 and 8.2 Done!">
+      <created>1605211089955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605211089955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,31 +340,32 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Lab 8.1 and 8.2 Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 8.1 and 8.2 Done!" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="769" height="498" key="GridCell.Tab.0.bottom" timestamp="1605208056374">
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1605790947359">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="769" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605208056374" />
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605790947359" />
     <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="769" height="498" key="GridCell.Tab.0.center" timestamp="1605208056374">
+    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1605790947359">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="769" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605208056374" />
+    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605790947359" />
     <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="769" height="498" key="GridCell.Tab.0.left" timestamp="1605208056374">
+    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1605790947358">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="769" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605208056374" />
+    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605790947358" />
     <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="769" height="498" key="GridCell.Tab.0.right" timestamp="1605208056374">
+    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1605790947359">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="769" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605208056374" />
+    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605790947359" />
     <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
     <state width="1323" height="254" key="GridCell.Tab.1.bottom" timestamp="1602026494760">
@@ -397,22 +432,24 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="254" key="GridCell.Tab.4.right/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494761" />
-    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size" timestamp="1605205694160">
+    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size" timestamp="1605291359159">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605205694160" />
+    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605291359159" />
     <state x="1798" y="-196" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738/1366.-438.1680.1020@1366.-438.1680.1020" timestamp="1604423934791" />
     <state x="518" y="79" key="RiderGenerateDialog" timestamp="1602025583646">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="518" y="79" key="RiderGenerateDialog/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602025583646" />
-    <state x="368" y="27" key="SettingsEditor" timestamp="1602026047184">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1819" y="-339" key="SettingsEditor" timestamp="1605267305145">
+      <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
+    <state x="1819" y="-339" key="SettingsEditor/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605267305145" />
     <state x="368" y="27" key="SettingsEditor/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026047184" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1602026238867">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1605211092566">
+      <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605211092566" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026238867" />
     <state x="2199" y="-376" width="854" height="1027" key="dock-window-1" timestamp="1605210803033">
       <screen x="1366" y="-376" width="1680" height="1020" />

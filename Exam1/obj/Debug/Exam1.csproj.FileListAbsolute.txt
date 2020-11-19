@@ -1,0 +1,6 @@
+F:\CODE\CSharpLabs\Exam1\bin\Debug\Exam1.exe
+F:\CODE\CSharpLabs\Exam1\bin\Debug\Exam1.pdb
+F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.csprojAssemblyReference.cache
+F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.csproj.CoreCompileInputs.cache
+F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.exe
+F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.pdb
