@@ -3,33 +3,34 @@ using System.Collections.Generic;
 
 namespace Lab8._2
 {
-    class DiscPhone
+    internal class DiscPhone
     {
         public DiscPhone()
         {
-                    
         }
-    
+
         public DiscPhone(string phoneNum)
         {
             PhoneNum = phoneNum;
         }
+
         public string PhoneNum { get; set; }
-                
-        public virtual List<char> AllowedSymbs => new List<char>()
+
+        public virtual List<char> AllowedSymbs => new List<char>
         {
             '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
         };
+
         protected string EnterNumber()
         {
             Console.Write("Введите номер абонента: ");
             while (true)
             {
-                bool invalid = false;
+                var invalid = false;
                 PhoneNum = Console.ReadLine();
                 if (PhoneNum != null)
                 {
-                    foreach (char symbol in PhoneNum)
+                    foreach (var symbol in PhoneNum)
                         if (!AllowedSymbs.Contains(symbol))
                         {
                             invalid = true;
@@ -44,11 +45,8 @@ namespace Lab8._2
 
                     return PhoneNum;
                 }
-                else
-                {
-                    Console.Write("Некорректный ввод. Попробуйте снова: ");
-                    continue;
-                }
+
+                Console.Write("Некорректный ввод. Попробуйте снова: ");
             }
         }
 
@@ -61,6 +59,5 @@ namespace Lab8._2
         {
             Console.WriteLine("Входящий вызов");
         }
-
     }
 }

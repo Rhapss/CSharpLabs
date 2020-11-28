@@ -1,11 +1,11 @@
 namespace Exam1
 {
-    class Car
+    internal class Car
     {
         public Car()
         {
-            
         }
+
         public Car(string name, string colorCollection, ushort year, int price, ushort horsePower)
         {
             Name = name;
@@ -14,6 +14,7 @@ namespace Exam1
             Price = price;
             HorsePower = horsePower;
         }
+
         public string Name { get; set; }
         public string ColorCollection { get; set; }
         public ushort Year { get; set; }

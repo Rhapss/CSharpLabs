@@ -6,12 +6,13 @@ namespace Lab8
 {
     public class Garage : Car
     {
-        private List<Car> cars;
+        private readonly List<Car> cars;
+
         public Garage()
         {
-            cars = new List<Car>();    
+            cars = new List<Car>();
         }
-        
+
 
         public void AddCar(string carModel, string color, double speed, int yearOfIssue)
         {
@@ -27,15 +28,14 @@ namespace Lab8
             }
             else
             {
-                int i = 1;
+                var i = 1;
                 foreach (var car in cars)
                 {
                     Console.WriteLine($"{i})Model: {car.CarModel}, Color {car.Color}, " +
                                       $"Max Speed: {car.Speed}km/h, Year of Issue {car.YearOfIssue}");
                     i++;
-                } 
+                }
             }
-            
         }
 
         public void DeleteCar(int index)
@@ -52,15 +52,15 @@ namespace Lab8
         {
             Console.Clear();
             var currentCar = cars[index - 1];
-            Console.WriteLine($"Хорошо прокатиться на " +
+            Console.WriteLine("Хорошо прокатиться на " +
                               $"{currentCar.Color} {currentCar.CarModel} {currentCar.YearOfIssue}" +
-                              $" года выпуска");
+                              " года выпуска");
             Console.ReadKey();
         }
 
         public int CountCars()
         {
-            int counter = 0;
+            var counter = 0;
             foreach (var car in cars)
                 counter++;
             return counter;
