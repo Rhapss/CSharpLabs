@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace Lab9._1
 {
-    class Picture
+    class Picture : IDraw
     {
         public Picture()
         {
@@ -88,6 +88,14 @@ namespace Lab9._1
             foreach (var elem in collect)
             {
                 Console.WriteLine($"Shape with name: {elem.Name}, color: {elem.Color}, type: {elem.GetType()}");
+            }
+        }
+
+        public void Draw()
+        {
+            foreach (var elem in collection)
+            {
+                elem.Draw();
             }
         }
     }

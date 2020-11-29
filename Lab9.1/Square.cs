@@ -2,7 +2,7 @@ using System;
 
 namespace Lab9._1
 {
-    public class Square : Shape
+    public class Square : Shape, IDraw
     {
         Random rnd = new Random();
         public Square(string name)
@@ -43,6 +43,17 @@ namespace Lab9._1
         public override double CalculatePerimeter()
         {
             return TurnLenght * 4;
+        }
+
+        public override void Draw()
+        {
+            Console.WriteLine($"Name of figure: {Name}\n" +
+                              $"Size of figure: \n" +
+                              $"Turn Length - {TurnLenght}\n" +
+                              $"Square of figure - {CalculateSquare()}cm^2\n" +
+                              $"Perimeter of figure - {CalculatePerimeter()}cm\n" +
+                              $"Color of figure is: {Color}\n" +
+                              $"----Figure drawn----");
         }
     }
 }

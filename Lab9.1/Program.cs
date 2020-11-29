@@ -29,6 +29,8 @@ namespace Lab9._1
             Console.WriteLine("~~~~~~~Deleting element by type (Circle)~~~~~~~");
             pic.DeleteShape(typeof(Circle));
             pic.ShowShapes(pic.collection);
+            
+            pic.Draw();
         }
     }
 }

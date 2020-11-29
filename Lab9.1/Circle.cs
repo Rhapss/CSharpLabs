@@ -2,7 +2,7 @@ using System;
 
 namespace Lab9._1
 {
-    public class Circle : Shape
+    public class Circle : Shape, IDraw
     {
         Random rnd = new Random();
         public Circle(string name)
@@ -42,6 +42,17 @@ namespace Lab9._1
         public override double CalculatePerimeter()
         {
             return 2 * Math.PI * Radius;
+        }
+
+        public override void Draw()
+        {
+            Console.WriteLine($"Name of figure: {Name}\n" +
+                              $"Size of figure: \n" +
+                              $"Radius - {Radius}\n" +
+                              $"Square of figure - {CalculateSquare()}cm^2\n" +
+                              $"Perimeter of figure - {CalculatePerimeter()}cm\n" +
+                              $"Color of figure is: {Color}\n" +
+                              $"----Figure drawn----");
         }
     }
 }

@@ -8,5 +8,6 @@ namespace Lab9._1
 
         public abstract double CalculateSquare();
         public abstract double CalculatePerimeter();
+        public abstract void Draw();
     }
 }

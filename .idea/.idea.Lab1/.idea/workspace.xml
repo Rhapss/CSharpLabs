@@ -33,14 +33,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="-Lab 9.1 Added">
-      <change afterPath="$PROJECT_DIR$/Lab9.1/Picture.cs" afterDir="false" />
+    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 9.2 and 9.3">
+      <change afterPath="$PROJECT_DIR$/Lab9.1/IDraw.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab9.1/Painter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab9.1/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Circle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab9.1/Lab9.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Lab9.1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/Picture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Picture.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab9.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Shape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/Square.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Square.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Triangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +87,13 @@
         <option value="$PROJECT_DIR$/Exam1/Cars.cs" />
         <option value="$PROJECT_DIR$/Lab8.2/ColorlessPhone.cs" />
         <option value="$PROJECT_DIR$/Lab9/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab9.1/Picture.cs" />
+        <option value="$PROJECT_DIR$/Lab9.1/Shape.cs" />
         <option value="$PROJECT_DIR$/Lab9.1/Square.cs" />
+        <option value="$PROJECT_DIR$/Lab9.1/Triangle.cs" />
         <option value="$PROJECT_DIR$/Lab9.1/Circle.cs" />
         <option value="$PROJECT_DIR$/Lab9.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Picture.cs" />
+        <option value="$PROJECT_DIR$/Lab9.1/Painter.cs" />
       </list>
     </option>
   </component>
@@ -341,7 +352,7 @@
       <workItem from="1606414532457" duration="699000" />
       <workItem from="1606484964881" duration="3344000" />
       <workItem from="1606574035173" duration="2684000" />
-      <workItem from="1606577114133" duration="5407000" />
+      <workItem from="1606577114133" duration="8179000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <created>1602026210619</created>
@@ -371,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606576670360</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab 9.2 and 9.3">
+      <created>1606668223981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606668223981</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,35 +415,36 @@
     <MESSAGE value="Lab 8.1 and 8.2 Done!" />
     <MESSAGE value="Exam 1 done!" />
     <MESSAGE value="-Lab 9.1 Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Lab 9.1 Added" />
+    <MESSAGE value="Lab 9.2 and 9.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 9.2 and 9.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="430" y="214" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1605926138756">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="430" y="214" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1366.738@0.0.1366.738" timestamp="1605926138756" />
-    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1606601878311">
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1606670517407">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606601878311" />
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606670517407" />
     <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1606601878310">
+    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1606670517406">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606601878310" />
+    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606670517406" />
     <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1606601878310">
+    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1606670517406">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606601878310" />
+    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606670517406" />
     <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1606601878311">
+    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1606670517407">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606601878311" />
+    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606670517407" />
     <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
     <state width="1323" height="254" key="GridCell.Tab.1.bottom" timestamp="1602026494760">
@@ -507,10 +526,10 @@
     <state x="1819" y="-339" key="SettingsEditor/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605267305145" />
     <state x="368" y="27" key="SettingsEditor/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026047184" />
     <state x="231" y="27" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605927884837" />
-    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1606576673329">
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1606668228855">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606576673329" />
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606668228855" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026238867" />
     <state x="2199" y="-376" width="854" height="1027" key="dock-window-1" timestamp="1605210803033">
       <screen x="1366" y="-376" width="1680" height="1020" />
@@ -520,9 +539,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="280" y="147" key="run.anything.popup/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026440123" />
-    <state x="1869" y="-156" width="672" height="678" key="search.everywhere.popup" timestamp="1605180600529">
+    <state x="1869" y="-156" width="672" height="678" key="search.everywhere.popup" timestamp="1606670139125">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state x="1869" y="-156" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605180600529" />
+    <state x="1869" y="-156" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606670139125" />
   </component>
 </project>
