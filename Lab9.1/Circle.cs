@@ -36,7 +36,7 @@ namespace Lab9._1
 
         public override double CalculateSquare()
         {
-            return Math.PI * Math.Sqrt(Radius);
+            return Math.PI * Math.Pow(Radius, 2);
         }
 
         public override double CalculatePerimeter()
