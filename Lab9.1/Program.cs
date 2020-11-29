@@ -31,6 +31,10 @@ namespace Lab9._1
             pic.ShowShapes(pic.collection);
             
             pic.Draw();
+            
+            Painter painter = new Painter(square);
+            
+            painter.Draw();
         }
     }
 }

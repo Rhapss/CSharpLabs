@@ -34,21 +34,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 9.2 and 9.3">
-      <change afterPath="$PROJECT_DIR$/Lab9.1/IDraw.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab9.1/Painter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Circle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/Lab9.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Lab9.1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/Picture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Picture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/IDraw.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/IDraw.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/Painter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Painter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab9.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Shape.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/Square.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Square.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/Triangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +81,9 @@
         <option value="$PROJECT_DIR$/Lab9.1/Square.cs" />
         <option value="$PROJECT_DIR$/Lab9.1/Triangle.cs" />
         <option value="$PROJECT_DIR$/Lab9.1/Circle.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab9.1/IDraw.cs" />
         <option value="$PROJECT_DIR$/Lab9.1/Painter.cs" />
+        <option value="$PROJECT_DIR$/Lab9.1/Program.cs" />
       </list>
     </option>
   </component>
@@ -352,7 +342,7 @@
       <workItem from="1606414532457" duration="699000" />
       <workItem from="1606484964881" duration="3344000" />
       <workItem from="1606574035173" duration="2684000" />
-      <workItem from="1606577114133" duration="8179000" />
+      <workItem from="1606577114133" duration="9193000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <created>1602026210619</created>
@@ -389,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606668223981</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lab 9.2 and 9.3">
+      <created>1606670964486</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606670964486</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lab 9.2 and 9.3">
+      <created>1606671000554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606671000554</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,10 +530,10 @@
     <state x="1819" y="-339" key="SettingsEditor/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1605267305145" />
     <state x="368" y="27" key="SettingsEditor/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026047184" />
     <state x="231" y="27" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605927884837" />
-    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1606668228855">
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1606670966876">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606668228855" />
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606670966876" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026238867" />
     <state x="2199" y="-376" width="854" height="1027" key="dock-window-1" timestamp="1605210803033">
       <screen x="1366" y="-376" width="1680" height="1020" />
