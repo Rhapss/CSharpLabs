@@ -5,20 +5,20 @@ namespace Exam1
 {
     internal class Cars : Car
     {
-        private readonly List<Car> CarCollection = new List<Car>();
+        private readonly List<Car> _carCollection = new List<Car>();
 
         public void AddCar(string name, string colorCollection, ushort year, int price, ushort horsePower)
         {
-            CarCollection.Add(new Car(name, colorCollection, year, price, horsePower));
+            _carCollection.Add(new Car(name, colorCollection, year, price, horsePower));
         }
 
         public void SearchCarByName(string name)
         {
             var findedCars = new List<Car>();
-            for (var i = 0; i < CarCollection.Count; i++)
+            for (var i = 0; i < _carCollection.Count; i++)
             {
-                CarCollection[i].Name = CarCollection[i].Name.ToLower();
-                if (CarCollection[i].Name.Contains(name.ToLower())) findedCars.Add(CarCollection[i]);
+                _carCollection[i].Name = _carCollection[i].Name.ToLower();
+                if (_carCollection[i].Name.Contains(name.ToLower())) findedCars.Add(_carCollection[i]);
             }
 
             if (findedCars.Count != 0)
@@ -37,11 +37,11 @@ namespace Exam1
         public void SearchCarByColors(string colorCollection)
         {
             var findedCars = new List<Car>();
-            for (var i = 0; i < CarCollection.Count; i++)
+            for (var i = 0; i < _carCollection.Count; i++)
             {
-                CarCollection[i].ColorCollection = CarCollection[i].ColorCollection.ToLower();
-                if (CarCollection[i].ColorCollection.Contains(colorCollection.ToLower()))
-                    findedCars.Add(CarCollection[i]);
+                _carCollection[i].ColorCollection = _carCollection[i].ColorCollection.ToLower();
+                if (_carCollection[i].ColorCollection.Contains(colorCollection.ToLower()))
+                    findedCars.Add(_carCollection[i]);
             }
 
             if (findedCars.Count != 0)
@@ -60,9 +60,9 @@ namespace Exam1
         public void SearchCarByYear(ushort year)
         {
             var findedCars = new List<Car>();
-            for (var i = 0; i < CarCollection.Count; i++)
-                if (CarCollection[i].Year.Equals(year))
-                    findedCars.Add(CarCollection[i]);
+            for (var i = 0; i < _carCollection.Count; i++)
+                if (_carCollection[i].Year.Equals(year))
+                    findedCars.Add(_carCollection[i]);
             if (findedCars.Count != 0)
             {
                 Console.WriteLine("Вы искали эти автомобили?:");
@@ -79,9 +79,9 @@ namespace Exam1
         public void SearchCarByPrice(int price)
         {
             var findedCars = new List<Car>();
-            for (var i = 0; i < CarCollection.Count; i++)
-                if (CarCollection[i].Price.Equals(price))
-                    findedCars.Add(CarCollection[i]);
+            for (var i = 0; i < _carCollection.Count; i++)
+                if (_carCollection[i].Price.Equals(price))
+                    findedCars.Add(_carCollection[i]);
             if (findedCars.Count != 0)
             {
                 Console.WriteLine("Вы искали эти автомобили?:");
@@ -98,9 +98,9 @@ namespace Exam1
         public void SearchCarByHorses(ushort horsePower)
         {
             var findedCars = new List<Car>();
-            for (var i = 0; i < CarCollection.Count; i++)
-                if (CarCollection[i].HorsePower.Equals(horsePower))
-                    findedCars.Add(CarCollection[i]);
+            for (var i = 0; i < _carCollection.Count; i++)
+                if (_carCollection[i].HorsePower.Equals(horsePower))
+                    findedCars.Add(_carCollection[i]);
 
             if (findedCars.Count != 0)
             {
@@ -118,13 +118,13 @@ namespace Exam1
         public void SearchCar(string name, string colorCollection, ushort year, int price, ushort hp)
         {
             var findedCars = new List<Car>();
-            for (var i = 0; i < CarCollection.Count; i++)
-                if (CarCollection[i].Name.Contains(name.ToLower()) &&
-                    CarCollection[i].ColorCollection.Contains(colorCollection.ToLower()) &&
-                    CarCollection[i].Year.Equals(year) &&
-                    CarCollection[i].Price.Equals(price) &&
-                    CarCollection[i].HorsePower.Equals(hp))
-                    findedCars.Add(CarCollection[i]);
+            for (var i = 0; i < _carCollection.Count; i++)
+                if (_carCollection[i].Name.Contains(name.ToLower()) &&
+                    _carCollection[i].ColorCollection.Contains(colorCollection.ToLower()) &&
+                    _carCollection[i].Year.Equals(year) &&
+                    _carCollection[i].Price.Equals(price) &&
+                    _carCollection[i].HorsePower.Equals(hp))
+                    findedCars.Add(_carCollection[i]);
             if (findedCars.Count != 0)
             {
                 Console.WriteLine("Вы искали эти автомобили?:");

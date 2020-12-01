@@ -25,10 +25,10 @@ namespace Lab9._1
             pic.AddShape(circle);
             pic.AddShape(triangle);
             
-            pic.ShowShapes(pic.collection);
+            pic.ShowShapes(pic.Collection);
             Console.WriteLine("~~~~~~~Deleting element by type (Circle)~~~~~~~");
             pic.DeleteShape(typeof(Circle));
-            pic.ShowShapes(pic.collection);
+            pic.ShowShapes(pic.Collection);
             
             pic.Draw();
             

@@ -4,19 +4,19 @@ namespace Lab4
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var n = 0;
 
             Console.WriteLine("Желаете ввести размер массива или получить случайно?\n1)Ввести\n2)Случайно\n");
-            var input = int.Parse(Console.ReadLine());
+            var input = Convert.ToInt32(Console.ReadLine());
 
             switch (input)
             {
                 case 1:
                     Console.Clear();
                     Console.WriteLine("Введите размер массива:");
-                    n = int.Parse(Console.ReadLine());
+                    n = Convert.ToInt32(Console.ReadLine());
                     break;
                 case 2:
                     var randSize = new Random();

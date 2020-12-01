@@ -15,6 +15,7 @@ namespace Lab6
 
         public static double ReverseString(ref double doStr)
         {
+            // ReSharper disable once SpecifyACultureInStringConversionExplicitly
             var str = doStr.ToString();
             var separatedString = str.Split(',', '.');
             var charArr1 = separatedString[0].ToCharArray();
@@ -62,7 +63,7 @@ namespace Lab6
             for (var i = 0; i < arr.Length - 1; i++) Console.WriteLine($"Arr[{i}] = {arr[i]}");
         }
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             int nums;
             while (true)
@@ -72,7 +73,7 @@ namespace Lab6
                     nums = Convert.ToInt32(Console.ReadLine());
                     break;
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     Console.WriteLine("I will ask you to enter NUMBERS until you enter NUMBERS");
                 }
@@ -80,7 +81,7 @@ namespace Lab6
             var str = "ABCD";
             var magicStr = "ABCD.EFGH";
             var doNum = 123.456;
-            var numsArr = new int[10] {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
+            var numsArr = new[] {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
             int[] reversedNumsArr;
 
             //Before reverse
@@ -108,6 +109,7 @@ namespace Lab6
             PrintArray(reversedNumsArr);
 
             Console.ReadKey();
+            
         }
     }
 }

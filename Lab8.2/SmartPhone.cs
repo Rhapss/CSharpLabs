@@ -10,6 +10,9 @@ namespace Lab8._2
             : base(phoneNum, screenWidth, screenHeight, screenResolution, phoneColor, colorAmount, isTwoSim,
                 secondPhoneNumber)
         {
+            TouchScreen = touchScreen;
+            TouchCounter = touchCounter;
+            CameraQuantity = cameraQuantity;
         }
 
         public bool TouchScreen { get; set; }

@@ -72,6 +72,7 @@ namespace Exam1
                         break;
                 }
             }
+            // ReSharper disable once FunctionNeverReturns
         }
     }
 }

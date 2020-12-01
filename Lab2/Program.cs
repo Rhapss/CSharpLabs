@@ -4,14 +4,14 @@ namespace Lab2
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var input = 0;
 
             try
             {
                 Console.Write("Введите стартовое значение для суммы ряда: ");
-                input = int.Parse(Console.ReadLine());
+                input = Convert.ToInt32(Console.ReadLine());
             }
             catch (Exception e)
             {

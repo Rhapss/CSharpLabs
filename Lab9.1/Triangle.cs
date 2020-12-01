@@ -22,16 +22,16 @@ namespace Lab9._1
 
         }
 
-        public Triangle(string name, double highCounter, string color)
+        public Triangle(string name, double turnLenght, string color)
         {
             Name = name;
             Color = color;
             HighCounter = 0;
-            TurnLenght = TurnLenght;
+            TurnLenght = turnLenght;
         }
-        public override string Color { get; set; }
-        public override int HighCounter { get; set; }
-        public override string Name { get; set; }
+        public sealed override string Color { get; set; }
+        public sealed override int HighCounter { get; set; }
+        public sealed override string Name { get; set; }
         public double TurnLenght { get; set; }
 
         public override double CalculateSquare()

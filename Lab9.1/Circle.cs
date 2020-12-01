@@ -29,9 +29,9 @@ namespace Lab9._1
             HighCounter = 0;
             Radius = radius;
         }
-        public override string Color { get; set; }
-        public override int HighCounter { get; set; }
-        public override string Name { get; set; }
+        public sealed override string Color { get; set; }
+        public sealed override int HighCounter { get; set; }
+        public sealed override string Name { get; set; }
         public double Radius { get; set; }
 
         public override double CalculateSquare()

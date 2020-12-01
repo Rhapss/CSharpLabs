@@ -32,12 +32,14 @@ namespace Lab7
                     Console.WriteLine($"Number {key} occurs {result[key]} times.");
         }
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             var nums = new List<int>();
             GenerateList(ref nums);
             CountRepeatedNums(nums);
             Console.ReadKey();
+            
+            
         }
     }
 }

@@ -6,30 +6,30 @@ namespace Lab8
 {
     public class Garage : Car
     {
-        private readonly List<Car> cars;
+        private readonly List<Car> _cars;
 
         public Garage()
         {
-            cars = new List<Car>();
+            _cars = new List<Car>();
         }
 
 
         public void AddCar(string carModel, string color, double speed, int yearOfIssue)
         {
             var car = new Car(carModel, color, speed, yearOfIssue);
-            cars.Add(car);
+            _cars.Add(car);
         }
 
         public void ShowCars()
         {
-            if (cars.Count == 0)
+            if (_cars.Count == 0)
             {
                 Console.WriteLine("Ваш гараж пуст!");
             }
             else
             {
                 var i = 1;
-                foreach (var car in cars)
+                foreach (var car in _cars)
                 {
                     Console.WriteLine($"{i})Model: {car.CarModel}, Color {car.Color}, " +
                                       $"Max Speed: {car.Speed}km/h, Year of Issue {car.YearOfIssue}");
@@ -45,13 +45,13 @@ namespace Lab8
             //     c.Color == color && 
             //     c.Speed == speed && 
             //     c.YearOfIssue == yearOfIssue);
-            cars.Remove(cars.ElementAt(index - 1));
+            _cars.Remove(_cars.ElementAt(index - 1));
         }
 
         public void RideCar(int index)
         {
             Console.Clear();
-            var currentCar = cars[index - 1];
+            var currentCar = _cars[index - 1];
             Console.WriteLine("Хорошо прокатиться на " +
                               $"{currentCar.Color} {currentCar.CarModel} {currentCar.YearOfIssue}" +
                               " года выпуска");
@@ -61,7 +61,7 @@ namespace Lab8
         public int CountCars()
         {
             var counter = 0;
-            foreach (var car in cars)
+            foreach (var unused in _cars)
                 counter++;
             return counter;
         }

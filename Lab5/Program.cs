@@ -22,13 +22,13 @@ namespace Lab5
                 matrix[i, j] = rn.Next(1, 50);
         }
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             var n = 0;
             var m = 0;
 
             Console.WriteLine("Желаете ввести размер матрицы или получить случайно?\n1)Ввести\n2)Случайно\n");
-            var input = int.Parse(Console.ReadLine());
+            var input = Convert.ToInt32(Console.ReadLine());
 
             switch (input)
             {
@@ -36,9 +36,9 @@ namespace Lab5
                     Console.Clear();
 
                     Console.WriteLine("Введите кол-во столбцов:");
-                    n = int.Parse(Console.ReadLine());
+                    n = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Введите кол-во рядков:");
-                    m = int.Parse(Console.ReadLine());
+                    m = Convert.ToInt32(Console.ReadLine());
 
                     break;
                 case 2:

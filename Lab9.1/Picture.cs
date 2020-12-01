@@ -19,38 +19,28 @@ namespace Lab9._1
         {
             get
             {
-                return collection[index];
+                return Collection[index];
             }
             set
             {
-                collection[index] = value;
+                Collection[index] = value;
             }
         }
-        public List<Shape> collection = new List<Shape>();
+        public List<Shape> Collection = new List<Shape>();
         public int CollectionLenght { get; set; }
 
-        public int CollectionCount
-        {
-            get
-            {
-                return collection.Count;
-            }
-            private set
-            {
-                
-            }
-        }
-        
+        public int CollectionCount => Collection.Count;
+
         public void AddShape(Shape shape)
         {
-            collection.Add(shape);
+            Collection.Add(shape);
         }
 
         public void DeleteShape(string name)
         {
             try
             {
-                collection.Remove(collection.SingleOrDefault(c => c.Name == name));
+                Collection.Remove(Collection.SingleOrDefault(c => c.Name == name));
             }
             catch (Exception e)
             {
@@ -62,7 +52,7 @@ namespace Lab9._1
         {
             try
             {
-                collection.RemoveAll( c => c.GetType() == type);
+                Collection.RemoveAll( c => c.GetType() == type);
             }
             catch (Exception e)
             {
@@ -74,7 +64,7 @@ namespace Lab9._1
         {
             try
             {
-                collection.RemoveAll(c => c.CalculateSquare() > maxSquare);
+                Collection.RemoveAll(c => c.CalculateSquare() > maxSquare);
             }
             catch (Exception e)
             {
@@ -93,7 +83,7 @@ namespace Lab9._1
 
         public void Draw()
         {
-            foreach (var elem in collection)
+            foreach (var elem in Collection)
             {
                 elem.Draw();
             }
