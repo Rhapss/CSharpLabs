@@ -14,7 +14,7 @@ namespace Lab10
             nums.ReverseString();
             
             array.ReverseArray();
-
+            
             Console.WriteLine();
             foreach (var elem in array)
             {
