@@ -35,18 +35,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 10">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 11">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Extensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9.1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9.1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Exam1/obj/Debug/Exam1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +51,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Exam1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab11/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab9.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab10/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -393,7 +386,8 @@
       <workItem from="1606574035173" duration="2684000" />
       <workItem from="1606577114133" duration="23810000" />
       <workItem from="1607179385917" duration="6851000" />
-      <workItem from="1607277266679" duration="4295000" />
+      <workItem from="1607277266679" duration="4375000" />
+      <workItem from="1607281799370" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <created>1602026210619</created>
@@ -458,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606781454524</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lab 11">
+      <created>1607281739968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607281739968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +488,8 @@
     <MESSAGE value="Lab 9.2 and 9.3" />
     <MESSAGE value="Lab 9.3" />
     <MESSAGE value="Lab 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 10" />
+    <MESSAGE value="Lab 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1660" y="-211" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607281679255">
@@ -498,32 +500,32 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="430" y="214" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1366.738@0.0.1366.738" timestamp="1605926138756" />
-    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1607281618661">
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1607281761907">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969226" />
-    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281618661" />
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281761907" />
     <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1607281618661">
+    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1607281761907">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969226" />
-    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281618661" />
+    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281761907" />
     <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1607281618660">
+    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1607281761907">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969200" />
-    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281618660" />
+    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281761907" />
     <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1607281618661">
+    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1607281761907">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969226" />
-    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281618661" />
+    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281761907" />
     <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
     <state width="1409" height="504" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
     <state width="1323" height="254" key="GridCell.Tab.1.bottom" timestamp="1602026494760">
@@ -606,10 +608,10 @@
     <state x="1819" y="-339" key="SettingsEditor/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607278361061" />
     <state x="368" y="27" key="SettingsEditor/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026047184" />
     <state x="231" y="27" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605927884837" />
-    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1606781460042">
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2" timestamp="1607281747692">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606781460042" />
+    <state x="1704" y="-235" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607281747692" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026238867" />
     <state x="2199" y="-376" width="854" height="1027" key="dock-window-1" timestamp="1605210803033">
       <screen x="1366" y="-376" width="1680" height="1020" />
