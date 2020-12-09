@@ -39,8 +39,10 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="AmusementPark.cs" />
+        <Compile Include="Extension.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Student.cs" />
         <Compile Include="Visitor.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
