@@ -35,7 +35,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 11 fix" />
+    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/obj/Debug/Lab1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,54 +56,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Exam1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab8.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab11/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab9.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab8.1/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab10/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Exam1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab8.1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8.1/Garage.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Lab8/Car.cs" />
-        <option value="$PROJECT_DIR$/Lab8/Garage.cs" />
-        <option value="$PROJECT_DIR$/Lab8/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab8.1/Car.cs" />
-        <option value="$PROJECT_DIR$/Lab8.2/DiscPhone.cs" />
-        <option value="$PROJECT_DIR$/Lab8.2/ButtonPhone.cs" />
-        <option value="$PROJECT_DIR$/Lab8.2/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab8.2/ColorlessPhone.cs" />
-        <option value="$PROJECT_DIR$/Lab9/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Shape.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/IDraw.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Painter.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab2/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab1/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab4/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab5/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab8.1/Garage.cs" />
-        <option value="$PROJECT_DIR$/Lab8.2/ColorfulPhone.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Circle.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Square.cs" />
-        <option value="$PROJECT_DIR$/Exam1/Cars.cs" />
-        <option value="$PROJECT_DIR$/Exam1/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab3/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab8.2/SmartPhone.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Picture.cs" />
-        <option value="$PROJECT_DIR$/Lab9.1/Triangle.cs" />
-        <option value="$PROJECT_DIR$/Lab7/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab6/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab10/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab10/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Lab11/Extension.cs" />
-        <option value="$PROJECT_DIR$/Lab11/Student.cs" />
-        <option value="$PROJECT_DIR$/Lab11/Program.cs" />
-      </list>
-    </option>
+    <setting file="file://$PROJECT_DIR$/Lab11/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab8.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1iWHlW0LdtrLRGhKQHOyzKDlzvR" />
   <component name="ProjectViewState">
@@ -113,7 +84,25 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Lab11">
+  <component name="RunManager" selected=".NET Project.CalcLab">
+    <configuration name="CalcLab" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../CalcLab/CalcLab/CalcLab.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Exam1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -348,6 +337,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab.Calc" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../Lab.Calc/Lab.Calc/Lab.Calc.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue=".NET Project.Exam1" />
       <item itemvalue=".NET Project.Lab1" />
@@ -362,6 +369,8 @@
       <item itemvalue=".NET Project.Lab9.1" />
       <item itemvalue=".NET Project.Lab10" />
       <item itemvalue=".NET Project.Lab11" />
+      <item itemvalue=".NET Project.CalcLab" />
+      <item itemvalue=".NET Project.Lab.Calc" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -386,7 +395,10 @@
       <workItem from="1607179385917" duration="6851000" />
       <workItem from="1607277266679" duration="4375000" />
       <workItem from="1607281799370" duration="3351000" />
-      <workItem from="1607516884231" duration="3329000" />
+      <workItem from="1607516884231" duration="4218000" />
+      <workItem from="1608055735814" duration="1389000" />
+      <workItem from="1608796246147" duration="2235000" />
+      <workItem from="1616428639215" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <created>1602026210619</created>
@@ -507,34 +519,34 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="430" y="214" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1366.738@0.0.1366.738" timestamp="1605926138756" />
-    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1607521284852">
-      <screen x="1366" y="-376" width="1680" height="1020" />
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom" timestamp="1607602264887">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969226" />
-    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521284852" />
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521652509" />
     <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
-    <state width="1409" height="504" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1607521284851">
-      <screen x="1366" y="-376" width="1680" height="1020" />
+    <state width="1087" height="498" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607602264887" />
+    <state width="1087" height="498" key="GridCell.Tab.0.center" timestamp="1607602264887">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969226" />
-    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521284851" />
+    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521652508" />
     <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
-    <state width="1409" height="504" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1607521284851">
-      <screen x="1366" y="-376" width="1680" height="1020" />
+    <state width="1087" height="498" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607602264887" />
+    <state width="1087" height="498" key="GridCell.Tab.0.left" timestamp="1607602264761">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969200" />
-    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521284851" />
+    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521652508" />
     <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
-    <state width="1409" height="504" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
-    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1607521284852">
-      <screen x="1366" y="-376" width="1680" height="1020" />
+    <state width="1087" height="498" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607602264761" />
+    <state width="1087" height="498" key="GridCell.Tab.0.right" timestamp="1607602264887">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@0.0.1366.738" timestamp="1606950969226" />
-    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521284852" />
+    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1607521652508" />
     <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494759" />
-    <state width="1409" height="504" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605176329701" />
+    <state width="1087" height="498" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607602264887" />
     <state width="1323" height="254" key="GridCell.Tab.1.bottom" timestamp="1602026494760">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -599,10 +611,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="254" key="GridCell.Tab.4.right/0.0.1366.738/1366.-600.1680.1020@0.0.1366.738" timestamp="1602026494761" />
-    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size" timestamp="1606825799718">
+    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size" timestamp="1608057063127">
       <screen x="1366" y="-376" width="1680" height="1020" />
     </state>
-    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1606825799718" />
+    <state x="1798" y="-134" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738/1366.-376.1680.1020@1366.-376.1680.1020" timestamp="1608057063127" />
     <state x="1798" y="-196" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738/1366.-438.1680.1020@1366.-438.1680.1020" timestamp="1604423934791" />
     <state x="2003" y="-267" key="RiderGenerateDialog" timestamp="1607279826275">
       <screen x="1366" y="-376" width="1680" height="1020" />
