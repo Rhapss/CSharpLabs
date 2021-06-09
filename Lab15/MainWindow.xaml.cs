@@ -5,9 +5,6 @@ using System.Windows.Controls;
 
 namespace Lab15
 {
-    /// <summary>
-    ///     Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private const int Amount = 16;
