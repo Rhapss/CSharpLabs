@@ -10,11 +10,11 @@ namespace Lab13
     public partial class Form1 : Form
     {
         private const int ButtonCounter = 16;
-        private int _numberNow = 1;
         private readonly List<int> _numbers;
         private readonly Random _random;
         private readonly Stopwatch _stopWatch;
         private readonly HashSet<int> _tempNumbers;
+        private int _numberNow = 1;
 
         public Form1()
         {

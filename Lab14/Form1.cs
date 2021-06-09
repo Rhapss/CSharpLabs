@@ -6,11 +6,11 @@ namespace Lab14
 {
     public partial class Form1 : Form
     {
-        private bool _gameOver;
         private readonly int Shift = 20;
+        private readonly int TimerCounterMax = 8;
+        private bool _gameOver;
         private bool _showName = true;
         private int _timerCounter;
-        private readonly int TimerCounterMax = 8;
         private int _x;
         private int _y;
 
@@ -25,7 +25,8 @@ namespace Lab14
         {
             var color = Color.Transparent;
             var size = 20;
-            Control[] panels = {
+            Control[] panels =
+            {
                 new Panel {Size = new Size(size, size), BackColor = color, Tag = 0},
                 new Panel {Size = new Size(OKButton.Size.Width, size), BackColor = color, Tag = 1},
                 new Panel {Size = new Size(size, size), BackColor = color, Tag = 2},
