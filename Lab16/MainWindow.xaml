@@ -3,11 +3,30 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Lab16"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" MouseMove="Window_MouseMove">
-    <Canvas x:Name="Canvas">
-        <Button x:Name="OkButton" Content="OK" HorizontalAlignment="Left" Margin="323,200,0,0" VerticalAlignment="Top" Width="119" Height="45" MouseEnter="button1_MouseEnter" Click="button1_Click"/>
-        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="323,250,0,0" VerticalAlignment="Top" Width="119" Height="45" Click="button2_Click"/>
-    </Canvas>
+        Title="MainWindow" Height="300" Width="525">
+    <TabControl x:Name="TabControl">
+        <TabItem Header="Task 1">
+            <Grid ShowGridLines="False" Background="#FFE5E5E5">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox Margin="10, 30" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="TextBoxTask1"
+                         FontSize="18" />
+                <Button Margin="10" Grid.Row="1" Grid.Column="0" Content="Add" Click="addValue_click" />
+                <Button Margin="10" Grid.Row="1" Grid.Column="1" Content="Delete" Click="deleteValue_click" />
+                <ComboBox Margin="10" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="ComboBox"
+                          VerticalAlignment="Center" />
+            </Grid>
+        </TabItem>
+        <TabItem x:Name="TabPage2" Header="Task 2">
+            <Grid Background="#FFE5E5E5" />
+        </TabItem>
+    </TabControl>
 </Window>

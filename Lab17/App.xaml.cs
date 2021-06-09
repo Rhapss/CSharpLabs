@@ -1,4 +1,4 @@
-﻿namespace Lab15
+﻿namespace Lab17
 {
     /// <summary>
     /// Interaction logic for App.xaml

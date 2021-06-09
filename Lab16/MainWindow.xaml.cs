@@ -1,157 +1,134 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Windows.Threading;
 
 namespace Lab16
 {
-   
     public partial class MainWindow : Window
     {
-        readonly DispatcherTimer _timer1;
-        readonly DispatcherTimer _timer2;
-        private bool _showMessage = false;
-        private int _counter = 1;
+        private const int Amount = 16;
+        private static int[] _numbers = new int[Amount];
+        private static Button[] _buttons = new Button[Amount];
+        private static int _lastButton;
+        private readonly Label _congrats = new Label();
+        private readonly Canvas c = new Canvas();
+
 
         public MainWindow()
         {
             InitializeComponent();
-            _timer1 = new DispatcherTimer();
-            _timer1.Tick += new EventHandler(timer_tick);
-            _timer1.Interval = new TimeSpan(0, 0, 3);
-            _timer1.Start();
-            _timer2 = new DispatcherTimer();
-            _timer2.Tick += new EventHandler(timer2_tick);
-            _timer2.Interval = new TimeSpan(0, 0, 1);
+
+
+            SetButtons();
+            _congrats.Content = "Good job!";
+            _congrats.Margin = new Thickness(210, 90, 0, 0);
+            _congrats.Visibility = Visibility.Hidden;
+            c.Children.Add(_congrats);
+
+            InitButtons();
         }
 
-        private void timer_tick(object sender, EventArgs e)
+        private static void SetButtons()
         {
-            _timer1.Interval = new TimeSpan(0, 0, 1);
-            if (_showMessage)
+            for (var i = 0; i < _numbers.Length; i++)
             {
-                base.Title = "Press 'OK' button";
-                _showMessage = false;
-            }
-            else
-            {
-                base.Title = "";
-                _showMessage = true;
-            }
-            _counter++;
-            if (_counter > 8)
-            {
-                _timer1.Stop();
-                _showMessage = false;
-            }
-        }
+                int temp;
+                do
+                {
+                    temp = new Random().Next(1, 17);
 
-        private void timer2_tick(object sender, EventArgs e)
-        {
-            if (_showMessage)
-            {
-                base.Title = "'OK' will never be pressed!";
-                _showMessage = false;
-            }
-            else
-            {
-                base.Title = "";
-                _showMessage = true;
-            }
-            _counter++;
-        }
-
-        private void Window_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (OkButton.Margin.Left < 1)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left + 100, OkButton.Margin.Top, 0, 0);
-            }
-            if (OkButton.Margin.Left + OkButton.Width + 10 > base.Width)
-            {
-                OkButton.Margin = new Thickness(base.Width - 100 - OkButton.Width, OkButton.Margin.Top, 0, 0);
-            }
-            if (OkButton.Margin.Top < 1)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left, OkButton.Margin.Top + 100, 0, 0);
-            }
-            if (OkButton.Margin.Top + OkButton.Height + 40 > base.Height)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left, base.Height - 100 - OkButton.Height, 0, 0);
-            }
-            if (e.GetPosition(Canvas).X > OkButton.Margin.Left - 20
-                && e.GetPosition(Canvas).Y > OkButton.Margin.Top - 20
-                && e.GetPosition(Canvas).X < OkButton.Margin.Left + OkButton.Width / 2
-                && e.GetPosition(Canvas).Y < OkButton.Margin.Top + OkButton.Height / 2)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left + 1, OkButton.Margin.Top + 1, 0, 0);
-                ChangeSize();
-            }
-            if (e.GetPosition(Canvas).X > OkButton.Margin.Left - 15
-                && e.GetPosition(Canvas).X < OkButton.Margin.Left + OkButton.Width / 2
-                && e.GetPosition(Canvas).Y > OkButton.Margin.Top + OkButton.Height / 2
-                && e.GetPosition(Canvas).Y < OkButton.Margin.Top + OkButton.Height + 20)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left + 5, OkButton.Margin.Top - 5, 0, 0);
-                ChangeSize();
-            }
-            if (e.GetPosition(Canvas).X > OkButton.Margin.Left + OkButton.Width / 2
-                && e.GetPosition(Canvas).X < OkButton.Margin.Left + OkButton.Width + 20
-                && e.GetPosition(Canvas).Y > OkButton.Margin.Top + OkButton.Height / 2
-                && e.GetPosition(Canvas).Y < OkButton.Margin.Top + OkButton.Height + 20)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left - 5, OkButton.Margin.Top - 5, 0, 0);
-                ChangeSize();
-            }
-            if (e.GetPosition(Canvas).X > OkButton.Margin.Left + OkButton.Width / 2
-                && e.GetPosition(Canvas).X < OkButton.Margin.Left + OkButton.Width + 20
-                && e.GetPosition(Canvas).Y < OkButton.Margin.Top + OkButton.Height / 2
-                && e.GetPosition(Canvas).Y > OkButton.Margin.Top - 20)
-            {
-                OkButton.Margin = new Thickness(OkButton.Margin.Left - 5, OkButton.Margin.Top + 5, 0, 0);
-                ChangeSize();
+                    if (!_numbers.Contains(temp))
+                    {
+                        _numbers[i] = temp;
+                        break;
+                    }
+                } while (_numbers.Contains(temp));
             }
         }
 
-        private void ChangeSize()
+        private void ResetButtons()
         {
-            if (OkButton.Width > 0.1 && OkButton.Height > 0.1)
+            c.Children.Clear();
+            _lastButton = 0;
+            _numbers = new int[Amount];
+            SetButtons();
+            _buttons = new Button[Amount];
+            InitButtons();
+            c.Children.Add(_congrats);
+        }
+
+        private void RandomizeButtons()
+        {
+            for (var i = 0; i < _buttons.Length; i++)
+            for (var j = 0; j < 4; j++)
             {
-                OkButton.Width = OkButton.Width - 0.1;
-                OkButton.Height = OkButton.Height - 0.1;
+                var x = _buttons[i].Margin.Left;
+                var y = _buttons[i].Margin.Top;
+
+                _buttons[i].Margin = new Thickness(_buttons[j].Margin.Left, _buttons[j].Margin.Top, 0, 0);
+                _buttons[j].Margin = new Thickness(x, y, 0, 0);
             }
-            else
+        }
+
+        private void InitButtons()
+        {
+            for (int i = 0, j = 0, k = 0; i < _buttons.Length; i++, j++)
             {
-                OkButton.Visibility = Visibility.Hidden;
-                _timer2.Start();
-                timer2_tick(null, null);
+                if (j == 4)
+                {
+                    j = 0;
+                    k++;
+                }
+
+                _buttons[i] = new Button();
+                _buttons[i].Content = _numbers[i].ToString();
+                _buttons[i].Width = 45;
+                _buttons[i].Height = 45;
+                _buttons[i].Margin = new Thickness(k * 45 + 5, j * 45 + 5, 0, 0);
+
+                _buttons[i].Click += (s, e) =>
+                {
+                    _congrats.Visibility = Visibility.Hidden;
+                    RandomizeButtons();
+
+                    var temp = s as Button;
+                    int num = short.Parse(temp.Content.ToString());
+
+                    temp.Visibility = Visibility.Hidden;
+
+                    if (_lastButton != num - 1)
+                    {
+                        ResetButtons();
+                    }
+                    else if (num == 16)
+                    {
+                        ResetButtons();
+                        _congrats.Visibility = Visibility.Visible;
+                    }
+                    else
+                    {
+                        _lastButton = num;
+                    }
+                };
+                c.Children.Add(_buttons[i]);
+            }
+
+            TabPage2.Content = c;
+        }
+
+        private void addValue_click(object sender, RoutedEventArgs e)
+        {
+            if (TextBoxTask1.Text != "")
+            {
+                ComboBox.Items.Add(TextBoxTask1.Text);
+                TextBoxTask1.Clear();
             }
         }
 
-        private void button1_MouseEnter(object sender, MouseEventArgs e)
+        private void deleteValue_click(object sender, RoutedEventArgs e)
         {
-            OkButton.Margin = new Thickness(CancelButton.Margin.Left + 200, CancelButton.Margin.Top + 200, 0, 0);
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Button 'OK' has been clicked");
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
+            if (TextBoxTask1.Text != "") ComboBox.Items.Remove(TextBoxTask1.Text);
         }
     }
 }
