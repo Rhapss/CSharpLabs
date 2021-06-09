@@ -1,0 +1,10 @@
+E:\CODE\CSharpLabs\Lab13\bin\Debug\Lab13.exe.config
+E:\CODE\CSharpLabs\Lab13\bin\Debug\Lab13.exe
+E:\CODE\CSharpLabs\Lab13\bin\Debug\Lab13.pdb
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.csprojAssemblyReference.cache
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.Properties.Resources.resources
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.csproj.GenerateResource.cache
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.csproj.CoreCompileInputs.cache
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.exe
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.pdb
+E:\CODE\CSharpLabs\Lab13\obj\Debug\Lab13.Form1.resources

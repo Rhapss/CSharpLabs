@@ -4,3 +4,9 @@ F:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.csprojAssemblyReference.cache
 F:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
 F:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.exe
 F:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.pdb
+E:\CODE\CSharpLabs\Lab6\bin\Debug\Lab6.exe
+E:\CODE\CSharpLabs\Lab6\bin\Debug\Lab6.pdb
+E:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.csprojAssemblyReference.cache
+E:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+E:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.exe
+E:\CODE\CSharpLabs\Lab6\obj\Debug\Lab6.pdb

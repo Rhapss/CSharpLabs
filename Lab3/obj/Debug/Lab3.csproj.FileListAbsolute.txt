@@ -12,3 +12,10 @@ F:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.csprojAssemblyReference.cache
 F:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
 F:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.exe
 F:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.pdb
+E:\CODE\CSharpLabs\Lab3\bin\Debug\Lab3.exe.config
+E:\CODE\CSharpLabs\Lab3\bin\Debug\Lab3.exe
+E:\CODE\CSharpLabs\Lab3\bin\Debug\Lab3.pdb
+E:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.csprojAssemblyReference.cache
+E:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+E:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.exe
+E:\CODE\CSharpLabs\Lab3\obj\Debug\Lab3.pdb

@@ -4,3 +4,9 @@ F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.csprojAssemblyReference.cache
 F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.csproj.CoreCompileInputs.cache
 F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.exe
 F:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.pdb
+E:\CODE\CSharpLabs\Exam1\bin\Debug\Exam1.exe
+E:\CODE\CSharpLabs\Exam1\bin\Debug\Exam1.pdb
+E:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.csprojAssemblyReference.cache
+E:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.csproj.CoreCompileInputs.cache
+E:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.exe
+E:\CODE\CSharpLabs\Exam1\obj\Debug\Exam1.pdb

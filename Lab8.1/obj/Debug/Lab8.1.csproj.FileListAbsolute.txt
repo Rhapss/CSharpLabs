@@ -1,0 +1,6 @@
+E:\CODE\CSharpLabs\Lab8.1\bin\Debug\Lab8.1.exe
+E:\CODE\CSharpLabs\Lab8.1\bin\Debug\Lab8.1.pdb
+E:\CODE\CSharpLabs\Lab8.1\obj\Debug\Lab8.1.csprojAssemblyReference.cache
+E:\CODE\CSharpLabs\Lab8.1\obj\Debug\Lab8.1.csproj.CoreCompileInputs.cache
+E:\CODE\CSharpLabs\Lab8.1\obj\Debug\Lab8.1.exe
+E:\CODE\CSharpLabs\Lab8.1\obj\Debug\Lab8.1.pdb

@@ -5,3 +5,10 @@ F:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
 F:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
 F:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.exe
 F:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.pdb
+E:\CODE\CSharpLabs\Lab5\bin\Debug\Lab5.exe.config
+E:\CODE\CSharpLabs\Lab5\bin\Debug\Lab5.exe
+E:\CODE\CSharpLabs\Lab5\bin\Debug\Lab5.pdb
+E:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+E:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+E:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.exe
+E:\CODE\CSharpLabs\Lab5\obj\Debug\Lab5.pdb
