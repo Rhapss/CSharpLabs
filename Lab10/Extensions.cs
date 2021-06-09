@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Lab10
 {
@@ -37,35 +35,27 @@ namespace Lab10
 
         public static void ReverseArray(this int[] arr)
         {
-            for (int i = 0; i < arr.Length / 2; i++)
+            for (var i = 0; i < arr.Length / 2; i++)
             {
                 var tmp = arr[i];
                 arr[i] = arr[arr.Length - i - 1];
                 arr[arr.Length - i - 1] = tmp;
             }
         }
+
         public static void PrintArray(this int[] arr)
         {
             Console.WriteLine("\nEven nums: ");
             foreach (var item in arr)
-            {
                 if (item % 2 == 0)
-                {
-                    
                     Console.Write($"{item} ");
-                }
-            }
 
             Console.WriteLine();
 
             Console.WriteLine("Odd nums");
             foreach (var item in arr)
-            {
                 if (item % 2 == 1)
-                {
                     Console.Write($"{item} ");
-                }
-            }
         }
     }
 }

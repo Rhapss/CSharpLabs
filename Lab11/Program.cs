@@ -7,39 +7,39 @@ namespace Lab11
 
     public delegate void AllActionDelegate(Visitor a);
 
-    
+
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Random rand = new Random();
+            var rand = new Random();
             var james = new Visitor();
             var thePark = new AmusementPark();
-            
-            ActionDelegate rollerCoaster = new ActionDelegate(thePark.VisitRollerCoaster);
-            ActionDelegate shootingRange = new ActionDelegate(thePark.VisitInShootingRange);
-            ActionDelegate roomOfFear = new ActionDelegate(thePark.VisitRoomOfFear);
-            ActionDelegate roomOfCrookedMirrors = new ActionDelegate(thePark.VisitRoomOfCrookedMirrors);
-            ActionDelegate eatPopcorn = new ActionDelegate(thePark.EatPopcorn);
-            ActionDelegate ferrisWheel = new ActionDelegate(thePark.VisitFerrisWheel);
 
-            AllActionDelegate allAction = new AllActionDelegate
+            ActionDelegate rollerCoaster = thePark.VisitRollerCoaster;
+            ActionDelegate shootingRange = thePark.VisitInShootingRange;
+            ActionDelegate roomOfFear = thePark.VisitRoomOfFear;
+            ActionDelegate roomOfCrookedMirrors = thePark.VisitRoomOfCrookedMirrors;
+            ActionDelegate eatPopcorn = thePark.EatPopcorn;
+            ActionDelegate ferrisWheel = thePark.VisitFerrisWheel;
+
+            var allAction = new AllActionDelegate
                 (rollerCoaster + shootingRange + roomOfFear + roomOfCrookedMirrors + eatPopcorn + ferrisWheel);
-            
-            
-            james.ShowAttended();
-            
-            shootingRange(james);
-            
-            eatPopcorn(james);
-            
-            james.ShowAttended();
-            
-            allAction(james);
-            
+
+
             james.ShowAttended();
 
-            List<Student> studs = new List<Student>();
+            shootingRange(james);
+
+            eatPopcorn(james);
+
+            james.ShowAttended();
+
+            allAction(james);
+
+            james.ShowAttended();
+
+            var studs = new List<Student>();
             studs.Add(new Student("Nick", "Topson", rand.Next(10, 30)));
             studs.Add(new Student("Andrew", "Moreno", rand.Next(10, 30)));
             studs.Add(new Student("Adam", "Sandler", rand.Next(10, 30)));
@@ -52,7 +52,7 @@ namespace Lab11
             studs.Add(new Student("Eve", "Mitsuri", rand.Next(10, 30)));
             studs.Add(new Student("Nikita", "Reshetnik", rand.Next(10, 30)));
             studs.Add(new Student("Elliot", "Troelsen", rand.Next(10, 30)));
-            
+
             Console.WriteLine("Age > 18");
             studs.FindStudents(Student.IsAdult).ForEach(Console.WriteLine);
             Console.WriteLine();

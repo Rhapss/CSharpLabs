@@ -1,13 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 namespace Lab9._1
 {
-    class Picture : IDraw
+    internal class Picture : IDraw
     {
+        public List<Shape> Collection = new List<Shape>();
+
         public Picture()
         {
-            
         }
 
         public Picture(int collectionLenght)
@@ -17,19 +19,18 @@ namespace Lab9._1
 
         public Shape this[int index]
         {
-            get
-            {
-                return Collection[index];
-            }
-            set
-            {
-                Collection[index] = value;
-            }
+            get => Collection[index];
+            set => Collection[index] = value;
         }
-        public List<Shape> Collection = new List<Shape>();
+
         public int CollectionLenght { get; set; }
 
         public int CollectionCount => Collection.Count;
+
+        public void Draw()
+        {
+            foreach (var elem in Collection) elem.Draw();
+        }
 
         public void AddShape(Shape shape)
         {
@@ -48,11 +49,12 @@ namespace Lab9._1
                 throw;
             }
         }
+
         public void DeleteShape(Type type)
         {
             try
             {
-                Collection.RemoveAll( c => c.GetType() == type);
+                Collection.RemoveAll(c => c.GetType() == type);
             }
             catch (Exception e)
             {
@@ -60,6 +62,7 @@ namespace Lab9._1
                 throw;
             }
         }
+
         public void DeleteShape(int square, int maxSquare)
         {
             try
@@ -76,17 +79,7 @@ namespace Lab9._1
         public void ShowShapes(List<Shape> collect)
         {
             foreach (var elem in collect)
-            {
                 Console.WriteLine($"Shape with name: {elem.Name}, color: {elem.Color}, type: {elem.GetType()}");
-            }
-        }
-
-        public void Draw()
-        {
-            foreach (var elem in Collection)
-            {
-                elem.Draw();
-            }
         }
     }
 }

@@ -11,24 +11,24 @@ namespace Lab13
     {
         private const int ButtonCounter = 16;
         private int _numberNow = 1;
-        private List<int> numbers;
-        HashSet<int> tempNumbers;
-        Random random;
-        Stopwatch stopWatch;
+        private readonly List<int> _numbers;
+        private readonly Random _random;
+        private readonly Stopwatch _stopWatch;
+        private readonly HashSet<int> _tempNumbers;
 
         public Form1()
         {
             InitializeComponent();
-            numbers = new List<int>(ButtonCounter);
-            tempNumbers = new HashSet<int>(ButtonCounter);
-            random = new Random();
-            stopWatch = new Stopwatch();
+            _numbers = new List<int>(ButtonCounter);
+            _tempNumbers = new HashSet<int>(ButtonCounter);
+            _random = new Random();
+            _stopWatch = new Stopwatch();
             CreateButtons();
         }
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            if(TextBox.Text != string.Empty)
+            if (TextBox.Text != string.Empty)
             {
                 ComboBox.Items.Add(TextBox.Text);
                 TextBox.BackColor = Color.White;
@@ -37,7 +37,7 @@ namespace Lab13
             }
             else
             {
-                MessageBox.Show("Ведіть текст!");
+                MessageBox.Show(@"Enter text!");
                 TextBox.BackColor = Color.Red;
                 TextBox.ForeColor = Color.White;
             }
@@ -47,7 +47,7 @@ namespace Lab13
         {
             if (TextBox.Text != string.Empty)
             {
-                if(ComboBox.Items.Contains(TextBox.Text))
+                if (ComboBox.Items.Contains(TextBox.Text))
                 {
                     ComboBox.Items.Remove(TextBox.Text);
                     TextBox.BackColor = Color.White;
@@ -56,14 +56,14 @@ namespace Lab13
                 }
                 else
                 {
-                    MessageBox.Show("Такого тексту немає.");
+                    MessageBox.Show(@"Text like this is not exists.");
                     TextBox.BackColor = Color.Red;
                     TextBox.ForeColor = Color.White;
                 }
             }
             else
             {
-                MessageBox.Show("Ведіть текст!");
+                MessageBox.Show(@"Enter text!");
                 TextBox.BackColor = Color.Red;
                 TextBox.ForeColor = Color.White;
             }
@@ -71,50 +71,44 @@ namespace Lab13
 
         private void CreateButtons()
         {
-            numbers.AddRange(Enumerable.Range(1, ButtonCounter));
+            _numbers.AddRange(Enumerable.Range(1, ButtonCounter));
 
-            int size = 40;
-            for (int i = 0; i < 4; i++)
+            var size = 40;
+            for (var i = 0; i < 4; i++)
+            for (var j = 0; j < ButtonCounter / 4; j++)
             {
-                for (int j = 0; j < ButtonCounter / 4; j++)
+                var button = new Button
                 {
-                    Button button = new Button
-                    {
-                        Location = new Point((size + 10) * i, (size + 10) * j),
-                        Size = new Size(size, size)
-                    };
-                    button.Click += new EventHandler(ButtonClick);
-                    int number = RandomNumber(0, ButtonCounter);
-                    tempNumbers.Add(number);
+                    Location = new Point((size + 10) * i, (size + 10) * j),
+                    Size = new Size(size, size)
+                };
+                button.Click += ButtonClick;
+                var number = Randomize(0, ButtonCounter);
+                _tempNumbers.Add(number);
 
-                    button.Text = number.ToString();
-                    PanelNumbers.Controls.Add(button);
-                }
+                button.Text = number.ToString();
+                PanelNumbers.Controls.Add(button);
             }
 
-            tempNumbers.Clear();
+            _tempNumbers.Clear();
         }
 
         private void ButtonClick(object sender, EventArgs e)
         {
-            Button button = sender as Button; 
-            if(_numberNow == int.Parse(button?.Text))
+            var button = sender as Button;
+            if (_numberNow == int.Parse(button?.Text ?? string.Empty))
             {
-                if(_numberNow == 1)
-                {
-                    stopWatch.Start();
-                }
+                if (_numberNow == 1) _stopWatch.Start();
                 if (_numberNow == 16)
                 {
-                    TimeSpan ts = stopWatch.Elapsed;
-                    string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            ts.Hours, ts.Minutes, ts.Seconds,
-            ts.Milliseconds / 10);
-                    stopWatch.Reset();
+                    var ts = _stopWatch.Elapsed;
+                    var elapsedTime = $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}.{ts.Milliseconds / 10:00}";
+                    _stopWatch.Reset();
                     ResetButton();
                     return;
                 }
-                button.Visible = false;
+
+                if (button != null) button.Visible = false;
                 _numberNow++;
                 ChangeNumber();
             }
@@ -135,27 +129,28 @@ namespace Lab13
         {
             foreach (var item in PanelNumbers?.Controls)
             {
-                Button button = item as Button;
+                var button = item as Button;
                 if (button != null && button.Visible)
                 {
-                    int number = RandomNumber(_numberNow-1, ButtonCounter);
-                    tempNumbers.Add(number);
+                    var number = Randomize(_numberNow - 1, ButtonCounter);
+                    _tempNumbers.Add(number);
                     button.Text = number.ToString();
                 }
             }
-            tempNumbers.Clear();
+
+            _tempNumbers.Clear();
         }
 
-        private int RandomNumber(int min,int max)
+        private int Randomize(int min, int max)
         {
             int number;
             do
             {
-                int index = random.Next(min, max);
-                number = numbers[index];
-            } while (tempNumbers.Contains(number));
+                var index = _random.Next(min, max);
+                number = _numbers[index];
+            } while (_tempNumbers.Contains(number));
+
             return number;
         }
-        
     }
 }

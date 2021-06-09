@@ -38,8 +38,6 @@ namespace Lab7
             GenerateList(ref nums);
             CountRepeatedNums(nums);
             Console.ReadKey();
-            
-            
         }
     }
 }

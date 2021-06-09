@@ -1,8 +1,7 @@
 namespace Lab9._1
 {
-    interface IDraw
+    internal interface IDraw
     {
         void Draw();
-        
     }
 }

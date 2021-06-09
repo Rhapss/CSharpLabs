@@ -2,7 +2,6 @@ namespace Lab11
 {
     public class AmusementPark
     {
-        
         public void VisitRollerCoaster(Visitor visitor)
         {
             visitor.RollerCoaster = true;

@@ -109,7 +109,6 @@ namespace Lab6
             PrintArray(reversedNumsArr);
 
             Console.ReadKey();
-            
         }
     }
 }

@@ -2,26 +2,24 @@
 using System.Globalization;
 using System.Windows;
 
-
-
 namespace Lab.Calc
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml
     /// </summary>
-    ///
-    enum EquationPart
+    internal enum EquationPart
     {
         Left,
         Right
     }
+
     public partial class MainWindow
     {
-        
         private string _numberA;
         private string _numberB;
         private char? _operator;
         private EquationPart currentPart = EquationPart.Left;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -242,10 +240,7 @@ namespace Lab.Calc
 
         private void DivideButton_OnClick(object sender, RoutedEventArgs e)
         {
-            if (_numberA != null && _numberB != null)
-            {
-                _numberA = CalculateResult(_numberA, _numberB, _operator);
-            }
+            if (_numberA != null && _numberB != null) _numberA = CalculateResult(_numberA, _numberB, _operator);
             TextBox.Text = "/";
             _operator = '/';
             currentPart = EquationPart.Right;
@@ -253,10 +248,7 @@ namespace Lab.Calc
 
         private void MultiplyButton_OnClick(object sender, RoutedEventArgs e)
         {
-            if (_numberA != null && _numberB != null)
-            {
-                _numberA = CalculateResult(_numberA, _numberB, _operator);
-            }
+            if (_numberA != null && _numberB != null) _numberA = CalculateResult(_numberA, _numberB, _operator);
             TextBox.Text = "*";
             _operator = '*';
             currentPart = EquationPart.Right;
@@ -264,10 +256,7 @@ namespace Lab.Calc
 
         private void SubstractButton_OnClick(object sender, RoutedEventArgs e)
         {
-            if (_numberA != null && _numberB != null)
-            {
-                _numberA = CalculateResult(_numberA, _numberB, _operator);
-            }
+            if (_numberA != null && _numberB != null) _numberA = CalculateResult(_numberA, _numberB, _operator);
             TextBox.Text = "-";
             _operator = '-';
             currentPart = EquationPart.Right;
@@ -280,6 +269,7 @@ namespace Lab.Calc
                 _numberA = CalculateResult(_numberA, _numberB, _operator);
                 _numberB = null;
             }
+
             TextBox.Text = "+";
             _operator = '+';
             currentPart = EquationPart.Right;

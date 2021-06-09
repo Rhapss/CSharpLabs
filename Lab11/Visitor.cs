@@ -13,6 +13,7 @@ namespace Lab11
             Popcorn = false;
             FerrisWheel = false;
         }
+
         public bool RollerCoaster { get; set; }
         public bool ShootingRange { get; set; }
         public bool RoomOfFear { get; set; }
@@ -22,14 +23,14 @@ namespace Lab11
 
         public void ShowAttended()
         {
-            Console.WriteLine($"------------------------------------------------------\n" +
+            Console.WriteLine("------------------------------------------------------\n" +
                               $"RollerCoaster - {RollerCoaster}\n" +
                               $"Shooting Range - {ShootingRange}\n" +
                               $"Room of Fear - {RoomOfFear}\n" +
                               $"Room of Crooked Mirrors- {RoomOfCrookedMirrors}\n" +
                               $"Popcorn - {Popcorn}\n" +
                               $"Ferris Wheel - {FerrisWheel}\n" +
-                              $"------------------------------------------------------\n");
+                              "------------------------------------------------------\n");
         }
     }
 }

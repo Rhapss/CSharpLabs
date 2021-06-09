@@ -4,7 +4,8 @@ namespace Lab9._1
 {
     public class Circle : Shape, IDraw
     {
-        Random rnd = new Random();
+        private readonly Random rnd = new Random();
+
         public Circle(string name)
         {
             Name = name;
@@ -19,7 +20,6 @@ namespace Lab9._1
             Color = "Indefined";
             HighCounter = 0;
             Radius = radius;
-
         }
 
         public Circle(string name, double radius, string color)
@@ -29,10 +29,22 @@ namespace Lab9._1
             HighCounter = 0;
             Radius = radius;
         }
+
         public sealed override string Color { get; set; }
         public sealed override int HighCounter { get; set; }
         public sealed override string Name { get; set; }
         public double Radius { get; set; }
+
+        public override void Draw()
+        {
+            Console.WriteLine($"Name of figure: {Name}\n" +
+                              "Size of figure: \n" +
+                              $"Radius - {Radius}\n" +
+                              $"Square of figure - {CalculateSquare()}cm^2\n" +
+                              $"Perimeter of figure - {CalculatePerimeter()}cm\n" +
+                              $"Color of figure is: {Color}\n" +
+                              "----Figure drawn----");
+        }
 
         public override double CalculateSquare()
         {
@@ -42,17 +54,6 @@ namespace Lab9._1
         public override double CalculatePerimeter()
         {
             return 2 * Math.PI * Radius;
-        }
-
-        public override void Draw()
-        {
-            Console.WriteLine($"Name of figure: {Name}\n" +
-                              $"Size of figure: \n" +
-                              $"Radius - {Radius}\n" +
-                              $"Square of figure - {CalculateSquare()}cm^2\n" +
-                              $"Perimeter of figure - {CalculatePerimeter()}cm\n" +
-                              $"Color of figure is: {Color}\n" +
-                              $"----Figure drawn----");
         }
     }
 }
