@@ -22,6 +22,8 @@
     <projectFile>Lab14/Lab14.csproj</projectFile>
     <projectFile>Lab15/Lab15.csproj</projectFile>
     <projectFile>Lab16/Lab16.csproj</projectFile>
+    <projectFile>Lab18/Lab18.csproj</projectFile>
+    <projectFile>Lab18WPF/Lab18WPF.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -45,60 +47,72 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Lab 16">
+    <list default="true" id="cdd53572-1e9b-4697-b30e-b28faea5f8c3" name="Default Changelist" comment="Fixed order of lab`s">
+      <change afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/App.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/App.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/Lab15.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/MainWindow.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/MainWindow.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/bin/Debug/Lab15.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/bin/Debug/Lab15.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/bin/Debug/Lab15.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/App.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/App.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.Properties.Resources.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/Lab15_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/Lab16.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/Lab16.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/bin/Debug/Lab10.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/obj/Debug/Lab10.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/bin/Debug/Lab11.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/obj/Debug/Lab11.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/bin/Debug/Lab12.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/bin/Debug/Lab12.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/bin/Debug/Lab12.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/bin/Debug/Lab12.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/App.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/Lab12_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/bin/Debug/Lab13.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/bin/Debug/Lab13.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/bin/Debug/Lab13.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/bin/Debug/Lab13.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/obj/Debug/Lab13.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/obj/Debug/Lab13.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/obj/Debug/Lab13.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/obj/Debug/Lab13.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/obj/Debug/Lab13.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/obj/Debug/Lab13.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab15/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab15/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab15/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab15/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/Lab15_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab15/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/bin/Debug/Lab16.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/bin/Debug/Lab16.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/bin/Debug/Lab16.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/bin/Debug/Lab16.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/App.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.Properties.Resources.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.csproj.GenerateResource.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.g.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/Lab16_MarkupCompile.lref" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/MainWindow.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/MainWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab16/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab16/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab17/bin/Debug/Lab17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab17/bin/Debug/Lab17.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab17/bin/Debug/Lab17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab17/bin/Debug/Lab17.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab17/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab17/obj/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab17/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab17/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab17/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab17/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab17/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab17/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/bin/Debug/Lab6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/bin/Debug/Lab6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/bin/Debug/Lab6.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/bin/Debug/Lab6.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/Lab6.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/bin/Debug/Lab7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/bin/Debug/Lab7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/bin/Debug/Lab7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/bin/Debug/Lab7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/obj/Debug/Lab7.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/obj/Debug/Lab7.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/obj/Debug/Lab7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/obj/Debug/Lab7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/obj/Debug/Lab7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/obj/Debug/Lab7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/bin/Debug/Lab9._1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9.1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9.1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.1/obj/Debug/Lab9._1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +124,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Lab8.1/Garage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://E:/CODE/CSharpLabs/Lab15/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab11/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lab.Calc/Lab.Calc/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab9.1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lab.Calc/Lab.Calc/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab13/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab14/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab15/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab10/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab17/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://E:/CODE/CSharpLabs/Lab15/obj/Debug/App.g.cs" root0="SKIP_HIGHLIGHTING" />
@@ -145,6 +161,10 @@
       <option value="$PROJECT_DIR$/Lab16/MainWindow.xaml" />
       <option value="$PROJECT_DIR$/Lab15/MainWindow.xaml" />
       <option value="$PROJECT_DIR$/Lab15/MainWindow.xaml.cs" />
+      <option value="$PROJECT_DIR$/Lab18WPF/MainWindow.xaml" />
+      <option value="$PROJECT_DIR$/Lab18WPF/MainWindow.xaml.cs" />
+      <option value="$PROJECT_DIR$/Lab18/Form1.cs" />
+      <option value="$PROJECT_DIR$/Lab18/Form1.Designer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iWHlW0LdtrLRGhKQHOyzKDlzvR" />
@@ -167,7 +187,7 @@
     <property name="settings.editor.selected.configurable" value="build.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Lab16">
+  <component name="RunManager" selected=".NET Project.Lab18WPF">
     <configuration name="Exam1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -321,6 +341,42 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab17/Lab17.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab18" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab18/Lab18.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab18WPF" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab18WPF/Lab18WPF.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -511,6 +567,8 @@
       <item itemvalue=".NET Project.Lab14" />
       <item itemvalue=".NET Project.Lab15" />
       <item itemvalue=".NET Project.Lab16" />
+      <item itemvalue=".NET Project.Lab18" />
+      <item itemvalue=".NET Project.Lab18WPF" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -540,7 +598,7 @@
       <workItem from="1608796246147" duration="2235000" />
       <workItem from="1616428639215" duration="425000" />
       <workItem from="1623247423784" duration="236000" />
-      <workItem from="1623247853309" duration="7396000" />
+      <workItem from="1623247853309" duration="11218000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <created>1602026210619</created>
@@ -647,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623256185158</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixed order of lab`s">
+      <created>1623256576730</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623256576730</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +747,8 @@
     <MESSAGE value="Lab 13" />
     <MESSAGE value="Lab 14 &amp; Lab 15" />
     <MESSAGE value="Lab 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 16" />
+    <MESSAGE value="Fixed order of lab`s" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed order of lab`s" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

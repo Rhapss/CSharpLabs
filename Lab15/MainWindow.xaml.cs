@@ -1,134 +1,325 @@
 ﻿using System;
-using System.Linq;
+using System.Globalization;
 using System.Windows;
-using System.Windows.Controls;
 
-namespace Lab15
+namespace Lab.Calc
 {
-    public partial class MainWindow : Window
+    /// <summary>
+    ///     Interaction logic for MainWindow.xaml
+    /// </summary>
+    internal enum EquationPart
     {
-        private const int Amount = 16;
-        private static int[] _numbers = new int[Amount];
-        private static Button[] _buttons = new Button[Amount];
-        private static int _lastButton;
-        private readonly Label _congrats = new Label();
-        private readonly Canvas c = new Canvas();
+        Left,
+        Right
+    }
 
+    public partial class MainWindow
+    {
+        private string _numberA;
+        private string _numberB;
+        private char? _operator;
+        private EquationPart currentPart = EquationPart.Left;
 
         public MainWindow()
         {
             InitializeComponent();
-
-
-            SetButtons();
-            _congrats.Content = "Good job!";
-            _congrats.Margin = new Thickness(210, 90, 0, 0);
-            _congrats.Visibility = Visibility.Hidden;
-            c.Children.Add(_congrats);
-
-            InitButtons();
         }
 
-        private static void SetButtons()
+        private void AbsButton_OnClick(object sender, RoutedEventArgs e)
         {
-            for (var i = 0; i < _numbers.Length; i++)
-            {
-                int temp;
-                do
-                {
-                    temp = new Random().Next(1, 17);
+        }
 
-                    if (!_numbers.Contains(temp))
-                    {
-                        _numbers[i] = temp;
-                        break;
-                    }
-                } while (_numbers.Contains(temp));
+        private void ClearButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            TextBox.Text = "";
+            _numberA = null;
+            _numberB = null;
+            _operator = null;
+            currentPart = EquationPart.Left;
+        }
+
+        private void Button0_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "0";
+                else
+                    TextBox.Text = "0";
+                _numberA += "0";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "0";
+                else
+                    TextBox.Text = "0";
+                _numberB += "0";
             }
         }
 
-        private void ResetButtons()
+        private void Button1_OnClick(object sender, RoutedEventArgs e)
         {
-            c.Children.Clear();
-            _lastButton = 0;
-            _numbers = new int[Amount];
-            SetButtons();
-            _buttons = new Button[Amount];
-            InitButtons();
-            c.Children.Add(_congrats);
-        }
-
-        private void RandomizeButtons()
-        {
-            for (var i = 0; i < _buttons.Length; i++)
-            for (var j = 0; j < 4; j++)
+            if (currentPart == EquationPart.Left)
             {
-                var x = _buttons[i].Margin.Left;
-                var y = _buttons[i].Margin.Top;
-
-                _buttons[i].Margin = new Thickness(_buttons[j].Margin.Left, _buttons[j].Margin.Top, 0, 0);
-                _buttons[j].Margin = new Thickness(x, y, 0, 0);
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "1";
+                else
+                    TextBox.Text = "1";
+                _numberA += "1";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "1";
+                else
+                    TextBox.Text = "1";
+                _numberB += "1";
             }
         }
 
-        private void InitButtons()
+        private void Button2_OnClick(object sender, RoutedEventArgs e)
         {
-            for (int i = 0, j = 0, k = 0; i < _buttons.Length; i++, j++)
+            if (currentPart == EquationPart.Left)
             {
-                if (j == 4)
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "2";
+                else
+                    TextBox.Text = "2";
+                _numberA += "2";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "2";
+                else
+                    TextBox.Text = "2";
+                _numberB += "2";
+            }
+        }
+
+        private void Button3_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "3";
+                else
+                    TextBox.Text = "3";
+                _numberA += "3";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "3";
+                else
+                    TextBox.Text = "3";
+                _numberB += "3";
+            }
+        }
+
+        private void Button4_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "4";
+                else
+                    TextBox.Text = "4";
+                _numberA += "4";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "4";
+                else
+                    TextBox.Text = "4";
+                _numberB += "4";
+            }
+        }
+
+        private void Button5_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "5";
+                else
+                    TextBox.Text = "5";
+                _numberA += "5";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "5";
+                else
+                    TextBox.Text = "5";
+                _numberB += "5";
+            }
+        }
+
+        private void Button6_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "6";
+                else
+                    TextBox.Text = "6";
+                _numberA += "6";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "6";
+                else
+                    TextBox.Text = "6";
+                _numberB += "6";
+            }
+        }
+
+        private void Button7_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "7";
+                else
+                    TextBox.Text = "7";
+                _numberA += "7";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "7";
+                else
+                    TextBox.Text = "7";
+                _numberB += "7";
+            }
+        }
+
+        private void Button8_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "8";
+                else
+                    TextBox.Text = "8";
+                _numberA += "8";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "8";
+                else
+                    TextBox.Text = "8";
+                _numberB += "8";
+            }
+        }
+
+        private void Button9_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (currentPart == EquationPart.Left)
+            {
+                if (_numberA != null && (_numberA != null || _numberA.Contains(",")))
+                    TextBox.Text += "9";
+                else
+                    TextBox.Text = "9";
+                _numberA += "9";
+            }
+            else if (currentPart == EquationPart.Right)
+            {
+                if (_numberB != null && (_numberB != null || _numberB.Contains(",")))
+                    TextBox.Text += "9";
+                else
+                    TextBox.Text = "9";
+                _numberB += "9";
+            }
+        }
+
+        private void DivideButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_numberA != null && _numberB != null) _numberA = CalculateResult(_numberA, _numberB, _operator);
+            TextBox.Text = "/";
+            _operator = '/';
+            currentPart = EquationPart.Right;
+        }
+
+        private void MultiplyButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_numberA != null && _numberB != null) _numberA = CalculateResult(_numberA, _numberB, _operator);
+            TextBox.Text = "*";
+            _operator = '*';
+            currentPart = EquationPart.Right;
+        }
+
+        private void SubstractButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_numberA != null && _numberB != null) _numberA = CalculateResult(_numberA, _numberB, _operator);
+            TextBox.Text = "-";
+            _operator = '-';
+            currentPart = EquationPart.Right;
+        }
+
+        private void AddButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_numberA != null && _numberB != null)
+            {
+                _numberA = CalculateResult(_numberA, _numberB, _operator);
+                _numberB = null;
+            }
+
+            TextBox.Text = "+";
+            _operator = '+';
+            currentPart = EquationPart.Right;
+        }
+
+        private void CalculateButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var result = CalculateResult(_numberA, _numberB, _operator);
+            TextBox.Text = result;
+            _numberA = result;
+            _numberB = null;
+            _operator = null;
+        }
+
+        private string CalculateResult(string numberA, string numberB, char? @operator)
+        {
+            try
+            {
+                var a = Convert.ToDouble(numberA);
+                var b = Convert.ToDouble(numberB);
+                switch (_operator)
                 {
-                    j = 0;
-                    k++;
+                    case '+':
+                        return (a + b).ToString(CultureInfo.InvariantCulture);
+
+                    case '-':
+                        return (a - b).ToString(CultureInfo.InvariantCulture);
+
+                    case '*':
+                        return (a * b).ToString(CultureInfo.InvariantCulture);
+
+                    case '/':
+                        return (a / b).ToString(CultureInfo.InvariantCulture);
                 }
-
-                _buttons[i] = new Button();
-                _buttons[i].Content = _numbers[i].ToString();
-                _buttons[i].Width = 45;
-                _buttons[i].Height = 45;
-                _buttons[i].Margin = new Thickness(k * 45 + 5, j * 45 + 5, 0, 0);
-
-                _buttons[i].Click += (s, e) =>
-                {
-                    _congrats.Visibility = Visibility.Hidden;
-                    RandomizeButtons();
-
-                    var temp = s as Button;
-                    int num = short.Parse(temp.Content.ToString());
-
-                    temp.Visibility = Visibility.Hidden;
-
-                    if (_lastButton != num - 1)
-                    {
-                        ResetButtons();
-                    }
-                    else if (num == 16)
-                    {
-                        ResetButtons();
-                        _congrats.Visibility = Visibility.Visible;
-                    }
-                    else
-                    {
-                        _lastButton = num;
-                    }
-                };
-                c.Children.Add(_buttons[i]);
             }
-
-            TabPage2.Content = c;
-        }
-
-        private void addValue_click(object sender, RoutedEventArgs e)
-        {
-            if (TextBoxTask1.Text != "")
+            catch (Exception)
             {
-                ComboBox.Items.Add(TextBoxTask1.Text);
-                TextBoxTask1.Clear();
+                Console.WriteLine(@"Error!");
             }
+
+            return "Error!";
         }
 
-        private void deleteValue_click(object sender, RoutedEventArgs e)
+        private void DotButton_OnClick(object sender, RoutedEventArgs e)
         {
-            if (TextBoxTask1.Text != "") ComboBox.Items.Remove(TextBoxTask1.Text);
+            TextBox.Text += ",";
+            if (_operator == null)
+                _numberA += ",";
+            else
+                _numberB += ",";
         }
     }
 }
