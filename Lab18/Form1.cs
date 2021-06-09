@@ -13,7 +13,7 @@ namespace Lab18
 {
     public partial class Form1 : Form
     {
-        private const string FolderName = "Folder.";
+        private const string FolderName = "Folder_";
         
         private const string TestDirectoryName = "100 Folders here!";
         
@@ -80,13 +80,12 @@ namespace Lab18
                 _dirInfo.Create();
             }
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 1; i <= 100; i++)
             {
                 _dirInfo.CreateSubdirectory(FolderName + i);
             }
 
-            MessageBox.Show("Было создано 100 папок в папку \"Lab_18 Fedorenko Max Test\" на рабочем столе. " +
-                "После нажатия кнопки \"Ок\" эти папки удаляться");
+            MessageBox.Show("Было создано 100 папок на рабочем столе. ");
 
             if (_dirInfo.Exists)
             {
@@ -127,7 +126,7 @@ namespace Lab18
                         }
                         catch
                         {
-                            MessageBox.Show("Мы не смогли открыть файл...", "Ошибка при открытии файла!");
+                            MessageBox.Show("Error ;(");
                             throw;
                         }
                     }
@@ -190,7 +189,7 @@ namespace Lab18
             }
             catch
             {
-                MessageBox.Show("Мы не смогли открыть файл...", "Ошибка при открытии файла!");
+                MessageBox.Show("Error ;(");
                 throw;
             }
         }
