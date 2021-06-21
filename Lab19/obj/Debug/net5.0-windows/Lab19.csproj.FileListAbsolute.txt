@@ -9,7 +9,6 @@ E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\Lab19.csprojAssemblyReference.
 E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\MainWindow.g.cs
 E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\App.g.cs
 E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\Lab19_MarkupCompile.cache
-E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\Lab19_MarkupCompile.lref
 E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\MainWindow.baml
 E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\Lab19.g.resources
 E:\CODE\CSharpLabs\Lab19\obj\Debug\net5.0-windows\Lab19.GeneratedMSBuildEditorConfig.editorconfig

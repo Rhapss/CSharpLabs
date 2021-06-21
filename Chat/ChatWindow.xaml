@@ -1,0 +1,68 @@
+﻿<fw:AcrylicWindow x:Class="Chat.ChatWindow"
+                   
+                   xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+                   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                   Title="ChatWindow" Height="300" Width="600" ResizeMode="NoResize" Closing="Window_Closing">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5 0"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox 
+            Grid.ColumnSpan="2" 
+            Margin="5" 
+            Name="ListBoxMessages" 
+            Style="{StaticResource ListBoxRevealStyle}" 
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+        <TextBlock 
+            Grid.Column="0" 
+            Margin="10 0 0 0"
+            Name="TextBlockUsersNum" 
+            Style="{StaticResource CaptionTextBlockStyle}" 
+            Grid.Row="1">0 users Online
+        </TextBlock>
+        <TextBox 
+            Grid.Column="0" 
+            Grid.Row="2"
+            Grid.ColumnSpan="2"
+            Margin="5 0 5 0"
+            Name="TextBoxMessage" Style="{StaticResource TextBoxRevealStyle}" />
+        <Button 
+            Grid.Column="0" 
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Name="ButtonSend" 
+            Style="{StaticResource ButtonAccentRevealStyle}" 
+            Margin="5 5 5 5"
+            Click="buttonSend_Click">Send
+        </Button>
+        <Button  Grid.Column="0" 
+                 Grid.Row="4"
+                 Name="ButtonJoin"
+                 Margin="5"
+                 Style="{StaticResource ButtonAccentRevealStyle}"
+                 Click="buttonJoin_Click">Join</Button>
+        <Button  Grid.Column="1" 
+                 Grid.Row="4"
+                 Name="ButtonLeave" 
+                 Margin="5" 
+                 Style="{StaticResource ButtonAccentRevealStyle}" 
+                 IsEnabled="False" 
+                 Click="buttonLeave_Click">Leave</Button>
+    </Grid>
+    </fw:AcrylicWindow>
